@@ -1,0 +1,15 @@
+{
+    "name": "luffyzhao/wxhepler",
+    "authors": [
+        {
+            "name": "luffyzhao",
+            "email": "luffyzhao@vip.126.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {"luffyzhao\\wxhelper\\": "src/"}
+    }
+}
