@@ -1,10 +1,12 @@
 <?php
 namespace luffyzhao\wxhelper\request;
 
+use luffyzhao\wxhelper\library\Request;
+
 /**
  *
  */
-class SessionKey
+class SessionKey extends Request
 {
     /**
      * 请求uri
