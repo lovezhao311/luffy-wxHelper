@@ -63,6 +63,7 @@ abstract class Request
     public function run()
     {
         $http = new Http;
+        $http->setVerifyPeer(false);
         try {
             switch ($this->method) {
                 case 'POST':

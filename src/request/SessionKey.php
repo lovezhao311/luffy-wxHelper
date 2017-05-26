@@ -41,5 +41,6 @@ class SessionKey extends Request
     public function setJsCode($code)
     {
         $this->params['js_code'] = $code;
+        return $this;
     }
 }
